@@ -1,3 +1,3 @@
 # CIM - CAD Repo
 
-![alt text](Preview.png)
+![alt text](Images/Preview.png)
