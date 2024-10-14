@@ -1,0 +1,76 @@
+------------------------------------------
+ABB MODEL DOCUMENTATION
+------------------------------------------
+Robot IRB1200 5KG/0.9m
+------------------------------------------
+
+System					: Process Simulate
+Model name				: irb1200_5_90_std_02.cojt
+status					: Customer release 
+Creator name, company 	: Kåre Folkeson, Virtual Manufacturing
+Owner		       		: ABB
+Current version			: 8.0
+RCS-module				: RCS 6.04
+Created in version		: Robcad 11
+Creation date     		: 2017-08-25
+
+------------------------------------------
+Built on 
+
+------------------------------------------
+Description:
+
+
+------------------------------------------
+Limits
+
+Axis1	-170	170
+Axis2	-100	130
+Axis3	-200	70
+Axis4	-270	270
+Axis5	-130	130
+Axis6	-400	400
+
+TCP 533;0;889.1
+------------------------------------------
+Mounting remarks:
+ 
+------------------------------------------
+Comments:
+
+------------------------------------------
+Modifications: 
+------------------------------------------
+
+Modification: Update geometry, entire robot
+
+           	
+
+==========================================
+General comments and instructions:
+------------------------------------------
+NOTE! This model is made for simulation purposes only!
+------------------------------------------
+Robotic product may change on revision and year model
+
+Naming convention:
+ROBOTFAMILY[BRANCH]_SIZE(handling capacity/kg_reach/cm)_TYPE/REV(letter)_(addons)_MODELRELEASE
+
+E.g. irb6650s_300_200_a_03
+
+- Robotfamily 6650 branch s=shelfmounted
+- 300kg load and 2.00m reach
+- TYPE A (Could be different motors compared to __)
+- addons could be special devices for a certain application
+- the third issued simulation model of this robot
+
+Note 1: 
+- Different TYPE or REV will coo-exist as they are representing different physical geometry or behaviour 
+- different model releases will not coo-exist - a later always replaces an earlier. The differenses are model improvements 
+and error correction still representing the same physical type or revision
+
+Note 2: Older models may have the figure for reach before weight in the name!
+------------------------------------------
+End of file
+
+
